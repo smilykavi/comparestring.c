@@ -10,6 +10,7 @@ gets(s1);
 gets(s2);
 while(s1[i]==s2[i]&&s1[i]!='\0')
 {
+i++;
 if(s1[i]<s2[i])
 {
 printf("not");
